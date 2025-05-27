@@ -3,8 +3,6 @@ import torch
 import torch.multiprocessing
 from tqdm import tqdm
 
-from ..get_encoder import get_encoder
-
 torch.multiprocessing.set_sharing_strategy("file_system")
 
 @torch.no_grad()

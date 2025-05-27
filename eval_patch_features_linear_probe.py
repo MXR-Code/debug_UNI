@@ -17,7 +17,7 @@ import torch.utils.data
 from sklearn.exceptions import ConvergenceWarning
 from sklearn.linear_model import LogisticRegression as sk_LogisticRegression
 
-from .logistic_regression import LogisticRegression
+from eval_patch_features_logistic_regression import LogisticRegression
 from .metrics import get_eval_metrics
 
 
