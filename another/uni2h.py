@@ -81,9 +81,3 @@ class UNI2H(Module):
 
     def test_inference(self, x):
         out = self.classifier(x)
-
-
-
-uni = UNI2H(is_pretrain_model=True)
-uni.test_forward()
-print()
